@@ -1,7 +1,7 @@
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class TC1 {
+public class TestCase2 {
 
 
     @BeforeClass
@@ -26,8 +26,8 @@ public class TC1 {
 
 
     @Test
-    void AddCustomer(){
-        System.out.println("-------This is AddCustomer  ------");
+    void AddCustomer4(){
+        System.out.println("-------This is AddCustomer 4 ------");
         Assert.assertEquals(1,1);
         //https://www.youtube.com/watch?v=uqf8rqgCzhk&list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45&index=3
     }
@@ -40,21 +40,21 @@ public class TC1 {
 
 
     @Test
-    void AddCustomer2(){
-        System.out.println("  ------  This is AddCustomer2  -------");
+    void AddCustomer5(){
+        System.out.println("  ------  This is AddCustomer 5  -------");
         Assert.assertEquals(1,1);
         //https://www.youtube.com/watch?v=uqf8rqgCzhk&list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45&index=3
     }
 
     @Test
-    void AddCustomer3(){
-        System.out.println("  ------  This is AddCustomer3  -------");
+    void AddCustomer6(){
+        System.out.println("  ------  This is AddCustomer 6 -------");
         Assert.assertEquals(1,1);
         //https://www.youtube.com/watch?v=uqf8rqgCzhk&list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45&index=3
     }
 
 
-    @BeforeSuite
+   /* @BeforeSuite
     void BeforeSuite(){
         System.out.println("This is Before Suite ");
         //https://www.youtube.com/watch?v=uqf8rqgCzhk&list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45&index=3
@@ -64,5 +64,22 @@ public class TC1 {
     void Aftersuite(){
         System.out.println("This is After Suite ");
         //https://www.youtube.com/watch?v=uqf8rqgCzhk&list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45&index=3
+    }*/
+
+
+    @BeforeTest
+    void BeforeTest(){
+        System.out.println("This is Before Test ");
+        //https://www.youtube.com/watch?v=uqf8rqgCzhk&list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45&index=3
     }
+
+
+    @AfterTest
+    void AfterTest(){
+        System.out.println("This is After Test ");
+        //https://www.youtube.com/watch?v=uqf8rqgCzhk&list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45&index=3
+    }
+
+
+
 }

@@ -1,7 +1,7 @@
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class TC1 {
+public class TestCase1 {
 
 
     @BeforeClass
@@ -26,8 +26,8 @@ public class TC1 {
 
 
     @Test
-    void AddCustomer(){
-        System.out.println("-------This is AddCustomer  ------");
+    void AddCustomer1(){
+        System.out.println("-------This is AddCustomer  1 ------");
         Assert.assertEquals(1,1);
         //https://www.youtube.com/watch?v=uqf8rqgCzhk&list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45&index=3
     }

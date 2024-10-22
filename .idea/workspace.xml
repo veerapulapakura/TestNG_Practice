@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f25f392e-64da-4b29-91f5-fd71e2c364df" name="Changes" comment="Initial commit" />
+    <list default="true" id="f25f392e-64da-4b29-91f5-fd71e2c364df" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SecondTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCase1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCase2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +30,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2nlkggtiEiyJEZ4KOtP1wP2s8wK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,14 +42,25 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="FirstTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/veerapulapakura/Desktop/VeeraGitProjects/TestNgSample/testng.xml">
+    <configuration name="TestCase1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgSample" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCase1" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -49,9 +68,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCase1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNgSample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCase1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase1.AddCustomer1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNgSample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCase1" />
+      <option name="METHOD_NAME" value="AddCustomer1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/veerapulapakura/Desktop/VeeraGitProjects/TestNgSample/test-output/testng-failed.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNgSample" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/test-output/testng-failed.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/veerapulapakura/Desktop/VeeraGitProjects/TestNgSample/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNgSample" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter2" />
+        <listener class="org.testng.reporters.FailedReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG./Users/veerapulapakura/Desktop/VeeraGitProjects/TestNgSample/test-output/testng-failed.xml" />
+      <item itemvalue="TestNG.TestCase1" />
+      <item itemvalue="TestNG.TestCase1.AddCustomer1" />
+      <item itemvalue="TestNG./Users/veerapulapakura/Desktop/VeeraGitProjects/TestNgSample/testng.xml" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstTestCase" />
+        <item itemvalue="TestNG./Users/veerapulapakura/Desktop/VeeraGitProjects/TestNgSample/testng.xml" />
+        <item itemvalue="TestNG.TestCase1" />
+        <item itemvalue="TestNG.TestCase1" />
+        <item itemvalue="TestNG.TestCase1.AddCustomer1" />
+        <item itemvalue="TestNG./Users/veerapulapakura/Desktop/VeeraGitProjects/TestNgSample/test-output/testng-failed.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -86,7 +170,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
