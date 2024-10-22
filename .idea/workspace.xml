@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f25f392e-64da-4b29-91f5-fd71e2c364df" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataFromDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataProviderInOtherClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataProviderWithinClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GroupingTestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Custom_Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Listener_Testcase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DataFromDataProvider.myTestcase">
+  <component name="RunManager" selected="TestNG.Listener_Testcase">
     <configuration name="DataFromDataProvider.myTestcase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgSample" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,10 +90,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisableTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupingTestCases" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgSample" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DisableTestCase" />
+      <option name="MAIN_CLASS_NAME" value="GroupingTestCases" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -103,10 +101,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupingTestCases" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Listener_Testcase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgSample" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GroupingTestCases" />
+      <option name="MAIN_CLASS_NAME" value="Listener_Testcase" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -129,16 +127,16 @@
       <item itemvalue="TestNG.DataFromDataProvider.myTestcase" />
       <item itemvalue="TestNG.DataProviderWithinClass.myTestcase" />
       <item itemvalue="TestNG.Dependancy_TestCase" />
-      <item itemvalue="TestNG.DisableTestCase" />
       <item itemvalue="TestNG.GroupingTestCases" />
+      <item itemvalue="TestNG.Listener_Testcase" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Listener_Testcase" />
         <item itemvalue="TestNG.DataFromDataProvider.myTestcase" />
         <item itemvalue="TestNG.DataProviderWithinClass.myTestcase" />
         <item itemvalue="TestNG.GroupingTestCases" />
         <item itemvalue="TestNG.Dependancy_TestCase" />
-        <item itemvalue="TestNG.DisableTestCase" />
       </list>
     </recent_temporary>
   </component>
