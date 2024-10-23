@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f25f392e-64da-4b29-91f5-fd71e2c364df" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Custom_Listeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Listener_Testcase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f25f392e-64da-4b29-91f5-fd71e2c364df" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
